@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CodeIgniter 4 Framework
 
 ## What is CodeIgniter?
@@ -58,3 +59,7 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - json (enabled by default - don't turn it off)
 - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
 - [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+=======
+# SIMS
+Student Information System built with PHP and MySQL. Includes frontend and backend for student enrollment, lecturer mark entry, and student login to view subjects, grades, and GPA. Data is managed using phpMyAdmin on a localhost server.
+>>>>>>> 060a49b8d8187e2477b4ffe69acb3fcd1a1e328d
