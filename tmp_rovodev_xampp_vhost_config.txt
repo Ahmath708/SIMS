@@ -1,0 +1,22 @@
+# XAMPP Virtual Host Configuration for EA3140
+# Add this to: C:\xampp\apache\conf\extra\httpd-vhost.conf
+
+<VirtualHost *:80>
+    ServerName ea3140.local
+    DocumentRoot "C:/xampp/htdocs/ea3140/public"
+    
+    <Directory "C:/xampp/htdocs/ea3140/public">
+        Options Indexes FollowSymLinks
+        AllowOverride All
+        Require all granted
+    </Directory>
+    
+    ErrorLog "logs/ea3140-error.log"
+    CustomLog "logs/ea3140-access.log" common
+</VirtualHost>
+
+# Then add this to: C:\Windows\System32\drivers\etc\hosts
+# 127.0.0.1    ea3140.local
+
+# After adding, restart Apache in XAMPP Control Panel
+# Then access via: http://ea3140.local/login
